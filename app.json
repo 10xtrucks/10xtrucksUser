@@ -1,0 +1,51 @@
+{
+  "expo": {
+    "name": "10xTrucks User",
+    "slug": "10xTruckUser",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./src/assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./src/assets/splash.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "buildNumber": "1.0.0",
+      "supportsTablet": true,
+      "userInterfaceStyle": "light",
+      "config": {
+        "googleMapsApiKey": "AIzaSyBvmhx8TzRvMn2knRFl8HzcSSKDhxyffOI"
+      }
+    },
+    "android": {
+      "package": "user.truck",
+      "versionCode": 2,
+      "userInterfaceStyle": "light",
+      "adaptiveIcon": {
+        "foregroundImage": "./src/assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyBvmhx8TzRvMn2knRFl8HzcSSKDhxyffOI"
+        }
+      }
+    },
+    "web": {
+      "favicon": "./src/assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "801fb9a8-04bb-4b83-acc3-5dbceec32959"
+      }
+    }
+  }
+}
