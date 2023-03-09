@@ -23,28 +23,22 @@
       "userInterfaceStyle": "light",
       "config": {
         "googleMapsApiKey": "AIzaSyBvmhx8TzRvMn2knRFl8HzcSSKDhxyffOI"
-      }
-    },
-    "android": {
-      "package": "user.truck",
-      "versionCode": 2,
-      "userInterfaceStyle": "light",
-      "adaptiveIcon": {
-        "foregroundImage": "./src/assets/adaptive-icon.png",
-        "backgroundColor": "#FFFFFF"
       },
-      "config": {
-        "googleMaps": {
-          "apiKey": "AIzaSyBvmhx8TzRvMn2knRFl8HzcSSKDhxyffOI"
-        }
+      "bundleIdentifier": "com.10xtrucksUser",
+      "infoPlist": {
+        "NSLocationWhenInUseUsageDescription": "This app needs access to your location to function properly.",
+        "UIBackgroundModes": [
+          "fetch"
+        ]
       }
+      
     },
     "web": {
       "favicon": "./src/assets/favicon.png"
     },
     "extra": {
       "eas": {
-        "projectId": "801fb9a8-04bb-4b83-acc3-5dbceec32959"
+        "projectId": "e64917f3-7965-4b1b-973f-d52f12f1b155"
       }
     }
   }
